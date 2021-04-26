@@ -81,8 +81,29 @@ const Home = () => {
               My <br /> Projects -
             </div>
           </AnimateEl>
-          {/*
+         
           <div className="boxes">
+          <AnimateEl>
+            <a 
+              onMouseEnter={boxHover}
+              onMouseLeave={boxExit}
+              className="box box-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shapedgod.github.io/constitution/"
+            >
+            <div className="box-content">
+                  <div className="box-anim p-title">Mers</div>
+                  <div className="box-anim p-sub">
+                    A constitution for Mers, a fictional country.
+                  </div>
+                  <div className="box-anim link">View Project &#8594;</div>
+                </div>
+
+                <div className="box-image"></div>
+        </a>
+          </AnimateEl>
+           {/*
             <AnimateEl>
               <a
                 onMouseEnter={boxHover}
