@@ -12,7 +12,7 @@ const About = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Seyi — About Me";
+    document.title = "polygon | about";
     // fadeUp(".about-inner", 0.8);
     gsap.from(".about__inner", {
       duration: 0.2,
@@ -48,7 +48,7 @@ const About = () => {
         <div className="about__inner">
           <div className="about__top">
             <div className="my-name">
-              Oluwadare <br /> Oluwaseyi.
+              polygon
             </div>
             <div className="desc">
               <p>

@@ -24,7 +24,7 @@ const Contact = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Seyi — Contact Me";
+    document.title = "polygon | contact";
 
     gsap.from(".services__inner", {
       duration: 0.2,
@@ -48,8 +48,8 @@ const Contact = () => {
     e.preventDefault();
 
     const service_id = "seyi";
-    const template_id = "template_ApqxOaqA";
-    const userId = "user_eOBOisCXugGWT5OU5ODq5";
+    const template_id = "template_u9k5hgj";
+    const userId = "user_iPDBMEZYA7nCzh8arFNE3";
     try {
       setLoading(true);
       await emailjs.send(service_id, template_id, formState, userId);
@@ -79,7 +79,7 @@ const Contact = () => {
       >
         <div className="services__inner">
           <div className="services__top">
-            <div className="title">Get In Touch!</div>
+            <div className="title">Contact</div>
             <div className="sub">
               Got a question, proposal or project or want to work <br />{" "}
               together on something? Feel free to reach out.
@@ -117,7 +117,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="message"
-                  placeholder="Hello, I think we need you to work on/collaborate this particular product... Reach out as soon as you can."
+                  placeholder="Hello"
                   required
                   value={message}
                   onChange={onChange}

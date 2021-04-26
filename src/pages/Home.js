@@ -10,8 +10,8 @@ import AnimateEl from "../components/AnimateEl";
 
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
-const text1 = "I curate experiences";
-const text2 = "with technology.";
+const text1 = "I code and make";
+const text2 = "applications.";
 
 const Home = () => {
   useEffect(() => {
@@ -81,6 +81,7 @@ const Home = () => {
               My <br /> Projects -
             </div>
           </AnimateEl>
+          {/*
           <div className="boxes">
             <AnimateEl>
               <a
@@ -161,31 +162,24 @@ const Home = () => {
 
                 <div className="box-image"></div>
               </a>
-            </AnimateEl>
-          </div>
+            </AnimateEl> */}
+          </div> 
           <a
-            href="https://github.com/oluwadareseyi"
+            href="https://github.com/shapedgod"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="more">
-              <div className="btn-content">View more projects</div>
+              <div className="btn-content">More projects</div>
             </button>
           </a>
         </section>
 
         <section className="find-me">
-          <div className="title">
-            Find <br /> Me{" "}
-            <span role="img" aria-label="find-emoji">
-              🔎
-            </span>
-          </div>
-          <div className="topic">PS: I also write, sometimes.</div>
 
           <div className="social-boxes">
             <a
-              href="https://github.com/oluwadareseyi"
+              href="https://github.com/shapedgod"
               target="_blank"
               rel="noopener noreferrer"
               className="box github"
@@ -194,12 +188,12 @@ const Home = () => {
                 <i className="fab fa-github-alt"></i>
                 <div className="items">
                   <div className="name">Github</div>
-                  <div className="user">/oluwadareseyi</div>
+                  <div className="user">/shapedgod</div>
                 </div>
               </div>
             </a>
             <a
-              href="https://twitter.com/seyi__xo"
+              href="https://twitter.com/polygonthedev"
               target="_blank"
               rel="noopener noreferrer"
               className="box twitter"
@@ -208,12 +202,12 @@ const Home = () => {
                 <i className="fab fa-twitter"></i>
                 <div className="items">
                   <div className="name">Twitter</div>
-                  <div className="user">/seyi__xo</div>
+                  <div className="user">/polygonthedev</div>
                 </div>
               </div>
             </a>
             <a
-              href="https://codepen.io/oluwadareseyi"
+              href="https://codepen.io/shaped"
               target="_blank"
               rel="noopener noreferrer"
               className="box codepen"
@@ -222,50 +216,7 @@ const Home = () => {
                 <i className="fab fa-codepen"></i>
                 <div className="items">
                   <div className="name">Codepen</div>
-                  <div className="user">/oluwadareseyi</div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://dev.to/oluwadareseyi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="box devto"
-            >
-              <div className="content">
-                <i className="fab fa-dev"></i>
-                <div className="items">
-                  <div className="name">Dev</div>
-                  <div className="user">/oluwadareseyi</div>
-                </div>
-              </div>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/oluwadareseyi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="box linkedin"
-            >
-              <div className="content">
-                <i className="fab fa-linkedin-in"></i>
-                <div className="items">
-                  <div className="name">Linkedin</div>
-                  <div className="user">/oluwadareseyi</div>
-                </div>
-              </div>
-            </a>
-            <a
-              href="https://www.instagram.com/seyii.dare/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="box instagram"
-            >
-              <div className="content">
-                <i className="fab fa-instagram"></i>
-                <div className="items">
-                  <div className="name">Instagram</div>
-                  <div className="user">/seyii.dare</div>
+                  <div className="user">/shaped</div>
                 </div>
               </div>
             </a>
@@ -273,9 +224,9 @@ const Home = () => {
         </section>
 
         <section className="contact">
-          <div className="topic">Need a developer ?</div>
+          <div className="topic">Send me a message</div>
           <Link to="/contact">
-            <div className="title">Let's Collaborate &#8594;</div>
+            <div className="title">Contact</div>
           </Link>
         </section>
 
