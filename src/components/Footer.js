@@ -6,43 +6,23 @@ const Footer = () => {
     <footer className="main-footer">
       <hr />
       <div className="footer-top">
-        <div className="message">Say Hello</div>
+        <div className="message"></div>
         <div className="links">
           <div className="link">
             <p>
               <a
-                data-text="wa.me/oluwaseyi"
-                href="https://wa.me/+2348171265376"
-                target="_blank"
-                rel="noopener noreferrer"
+                data-text="hi@theshape.dev"
+                href="mailto:hi@theshape.dev"
               >
-                wa.me/oluwaseyi
-              </a>
-            </p>
-            <p>
-              <a
-                data-text="oluwadareseyii@gmail.com"
-                href="mailto:oluwadareseyii@gmail.com"
-              >
-                oluwadareseyii@gmail.com
+                hi@theshape.dev
               </a>
             </p>
           </div>
           <div className="link">
-            <p>
-              <a
-                data-text="Blog"
-                href="https://dev.to/oluwadareseyi"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-            </p>
 
             <p>
-              <Link data-text="Resume" to="/about">
-                Resume
+              <Link data-text="About" to="/about">
+                About
               </Link>
             </p>
 
@@ -54,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom">© Oluwadare Oluwaseyi 2020</div>
+      <div className="footer-bottom">&copy; Shape Development</div>
     </footer>
   );
 };
