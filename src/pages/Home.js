@@ -7,7 +7,6 @@ import { ReactComponent as Triangle } from "../assets/images/triangle.svg";
 import { boxHover, boxExit } from "../animations";
 import Footer from "../components/Footer";
 import AnimateEl from "../components/AnimateEl";
-import Projects from "../components/Projects"
 
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
@@ -76,7 +75,37 @@ const Home = () => {
           </div>
         </section>
 
-        
+        <section className="landing__work">
+          <AnimateEl>
+            <div className="title">
+              My <br /> Projects -
+            </div>
+          </AnimateEl>
+         
+          <div className="boxes">
+          <AnimateEl>
+            <a 
+              onMouseEnter={boxHover}
+              onMouseLeave={boxExit}
+              className="box box-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://shapedgod.github.io/constitution/"
+            >
+            <div className="box-content">
+                  <div className="box-anim p-title">Mers</div>
+                  <div className="box-anim p-sub">
+                    A constitution for Mers, a fictional country.
+                  </div>
+                  <div className="box-anim link">View Project &#8594;</div>
+                </div>
+
+                <div className="box-image"></div>
+             </a>
+          </AnimateEl>
+           
+          </div>
+        </section>
 
         <section className="find-me">
 
@@ -125,7 +154,7 @@ const Home = () => {
             </a>
           </div>
         </section>
-</Projects>
+
         <section className="contact">
           <div className="topic">Send me a message</div>
           <Link to="/contact">
