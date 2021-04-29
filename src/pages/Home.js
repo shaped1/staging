@@ -7,6 +7,7 @@ import { ReactComponent as Triangle } from "../assets/images/triangle.svg";
 import { boxHover, boxExit } from "../animations";
 import Footer from "../components/Footer";
 import AnimateEl from "../components/AnimateEl";
+import Projects from "../components/Projects"
 
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
@@ -124,7 +125,7 @@ const Home = () => {
             </a>
           </div>
         </section>
-
+</Projects>
         <section className="contact">
           <div className="topic">Send me a message</div>
           <Link to="/contact">
